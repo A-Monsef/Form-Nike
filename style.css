@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url('image/backk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .whitebox{
+    margin: auto;
+    margin-top: 20px;
+    background-color: white;
+    width: 1000px;
+    height: 650px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+  }
+  .whitebox img{
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    margin-top: px;
+  }
+  .Information{
+    color: #934980;
+    margin-top: 20px;
+    margin-left: 30px;
+  }
+  .Information input, select{
+    height: 35px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid;
+    width: 400px;
+  }
+  button{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 190;
+    padding: 20px 70px;
+    border-radius: 50px;
+    font-size: 20px;
+    color: white;
+    background: rgb(56,113,143);
+    background: linear-gradient(90deg, rgba(56,113,143,1) 0%, rgba(109,58,115,1) 35%);
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
